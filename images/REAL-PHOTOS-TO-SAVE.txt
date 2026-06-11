@@ -1,0 +1,29 @@
+REAL PHOTOS — LICENSED FROM ADOBE STOCK (free tier)
+====================================================
+8 real photos were licensed to your Adobe account for the most-visible
+slots. This sandbox has no internet access, so I couldn't write them into
+this folder automatically — please download each from the Adobe preview
+cards in our chat and save them here with the EXACT filename below.
+(Saving over the existing placeholder replaces it automatically — no code
+changes needed.)
+
+FILENAME          SAVE AS / CROP TO     SUBJECT (Adobe Stock ID)
+-------------------------------------------------------------------------
+top-story.jpg     1200 x 675 (16:9)     Bath riverside / river & bridge  (85544739)
+news-1.jpg        1200 x 675 (16:9)     Airport terminal at sunset        (282463167)
+news-2.jpg        1200 x 675 (16:9)     Rolling green farmland hills      (284003161)
+news-3.jpg        1200 x 675 (16:9)     Market food stalls                (165242406)
+satire-1.jpg      1200 x 675 (16:9)     Big stack of documents            (238031621)
+satire-2.jpg      1200 x 675 (16:9)     Bus-stop shelters                 (332426079)
+comedy-1.jpg       800 x 600 (4:3)      UK roundabout (aerial)            (220718684)
+comedy-2.jpg       800 x 600 (4:3)      Row of UK wheelie bins            (329387891)
+
+HOW TO RESIZE (optional): the slots use object-fit cover, so any landscape
+crop looks fine — exact pixel sizes above are ideal but not required.
+
+STILL ON PLACEHOLDERS (23 remaining — replace whenever you like):
+  News:   news-4..9, news-s1..s4
+  Satire: satire-lead, satire-3, satire-4, satire-5, satire-6
+  Comedy: comedy-featured, comedy-3..9
+
+I'll remind you periodically about the remaining images.

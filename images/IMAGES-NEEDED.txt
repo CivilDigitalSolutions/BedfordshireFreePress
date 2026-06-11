@@ -1,0 +1,48 @@
+IMAGES NEEDED — The Bedfordshire Free Press
+==========================================
+Place your image files in this folder using the exact filenames below.
+Recommended format: JPG. Recommended size: 1200x675px (16:9) for news/satire,
+800x600px (4:3) for comedy sketches. File size: aim for under 300KB each.
+
+NEWS IMAGES
+-----------
+top-story.jpg       — Bedford riverside / town centre (homepage hero + article page)
+news-1.jpg          — Luton Airport terminal
+news-2.jpg          — Dunstable Downs / green landscape
+news-3.jpg          — Biggleswade market
+news-4.jpg          — Sandy town / school building
+news-5.jpg          — Leighton Buzzard / bus stop
+news-6.jpg          — Houghton Regis / community garden
+news-7.jpg          — Bedford Hospital
+news-8.jpg          — Woburn Abbey / woodland
+news-9.jpg          — A1 motorway / roadworks
+news-s1.jpg         — Sidebar: football / Bedford FC
+news-s2.jpg         — Sidebar: police / rural scene
+news-s3.jpg         — Sidebar: cycling / path
+news-s4.jpg         — Sidebar: students / school
+
+SATIRE IMAGES
+-------------
+satire-lead.jpg     — Council chamber / empty meeting room (satire hero)
+satire-1.jpg        — Planning forms / bureaucracy illustration
+satire-2.jpg        — Bus stop with no buses
+satire-3.jpg        — Consultation document / form
+satire-4.jpg        — Press conference / microphone
+satire-5.jpg        — Town hall / public meeting
+satire-6.jpg        — Cycle lane ending in hedge / countryside
+
+COMEDY SKETCH IMAGES (4:3 ratio works best)
+--------------------------------------------
+comedy-featured.jpg — Pothole / road damage (featured sketch)
+comedy-1.jpg        — Roundabout / road junction
+comedy-2.jpg        — Recycling bins
+comedy-3.jpg        — Greggs / bakery queue
+comedy-4.jpg        — Train / platform departures board
+comedy-5.jpg        — Planning notice on a fence
+comedy-6.jpg        — Airport departures board
+comedy-7.jpg        — Village fete / bunting
+comedy-8.jpg        — Pub / quiz night
+comedy-9.jpg        — Public consultation / clipboard
+
+TIP: All image slots have emoji fallbacks built in, so the site
+looks fine without images — add them whenever you're ready.
