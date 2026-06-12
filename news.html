@@ -96,16 +96,16 @@
           <!-- LEAD STORY -->
           <article class="card card--lead" style="margin-bottom:1.5rem;">
             <div class="card__img" style="aspect-ratio:16/7;">
-              <img src="images/news-1-web.jpg" alt="Illustrative image: airport terminal at dusk" onerror="this.parentElement.innerHTML='<div class=\'card__img--placeholder\'>💼</div>'" />
+              <img src="images/news-placeholder.jpg" alt="Illustrative image: construction cranes over a development site" onerror="this.parentElement.innerHTML='<div class=\'card__img--placeholder\'>🏗️</div>'" />
             </div>
             <div class="card__body">
               <div class="card__meta">
                 <span class="badge badge--news">News</span>
                 <span class="card__date">11 June 2026</span>
               </div>
-              <h2 class="card__headline"><a href="article-luton-tech-hub.html">Luton Tech Hub Expansion to Create 250 Jobs as Region Eyes Growth-Centre Status</a></h2>
-              <p class="card__excerpt">A £22m public-private expansion will add 250 tech jobs, three innovation spaces, and six relocating firms — positioning Luton as an East of England growth centre.</p>
-              <a class="card__read-more" href="article-luton-tech-hub.html">Read the full story &rarr;</a>
+              <h2 class="card__headline"><a href="article-local-plan-2050.html">Bedford Borough Begins Work on Local Plan 2050 as Universal Era Looms</a></h2>
+              <p class="card__excerpt">A new long-term blueprint will guide homes, jobs and infrastructure up to 2050, with a public consultation and call for sites this autumn as the borough prepares for Universal.</p>
+              <a class="card__read-more" href="article-local-plan-2050.html">Read the full story &rarr;</a>
             </div>
           </article>
 
@@ -130,6 +130,42 @@
 
           <!-- NEWS GRID -->
           <div class="grid-3">
+
+            <article class="card">
+              <div class="card__img">
+                <img src="images/news-1-web.jpg" alt="Illustrative image: a crowd at an outdoor concert" onerror="this.parentElement.innerHTML='<div class=\'card__img--placeholder\'>🎤</div>'" />
+              </div>
+              <div class="card__body">
+                <div class="card__meta"><span class="badge badge--news">Events</span><span class="card__date">11 June 2026</span></div>
+                <h3 class="card__headline"><a href="article-luton-150-party.html">Kaiser Chiefs to Headline Luton 150 &lsquo;Party in the Park&rsquo;</a></h3>
+                <p class="card__excerpt">The indie-rock band will headline a Stockwood Park concert marking 150 years of Luton as a borough. Tickets are on sale via Ticketmaster, with a resident postcode discount.</p>
+                <a class="card__read-more" href="article-luton-150-party.html">Read more &rarr;</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__img">
+                <img src="images/news-2-web.jpg" alt="Illustrative image: a water vole at the water&rsquo;s edge" onerror="this.parentElement.innerHTML='<div class=\'card__img--placeholder\'>🦡</div>'" />
+              </div>
+              <div class="card__body">
+                <div class="card__meta"><span class="badge badge--news">Environment</span><span class="card__date">11 June 2026</span></div>
+                <h3 class="card__headline"><a href="article-nature-recovery.html">Three Councils Approve Bedfordshire Nature Recovery Strategy</a></h3>
+                <p class="card__excerpt">Bedford, Luton and Central Bedfordshire councils approve a joint plan to restore habitats and protect threatened species including the water vole, dormouse and turtle dove.</p>
+                <a class="card__read-more" href="article-nature-recovery.html">Read more &rarr;</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__img">
+                <img src="images/news-1-web.jpg" alt="Illustrative image: airport terminal at dusk" onerror="this.parentElement.innerHTML='<div class=\'card__img--placeholder\'>💼</div>'" />
+              </div>
+              <div class="card__body">
+                <div class="card__meta"><span class="badge badge--news">News</span><span class="card__date">11 June 2026</span></div>
+                <h3 class="card__headline"><a href="article-luton-tech-hub.html">Luton Tech Hub Expansion to Create 250 Jobs as Region Eyes Growth-Centre Status</a></h3>
+                <p class="card__excerpt">A £22m public-private expansion will add 250 tech jobs, three innovation spaces, and six relocating firms — positioning Luton as an East of England growth centre.</p>
+                <a class="card__read-more" href="article-luton-tech-hub.html">Read more &rarr;</a>
+              </div>
+            </article>
 
             <article class="card">
               <div class="card__img">
@@ -405,4 +441,7 @@
     document.getElementById('year').textContent = new Date().getFullYear();
     const d = new Date();
     document.getElementById('pub-date').textContent = d.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
-  </scrip
+  </script>
+
+</body>
+</html>
