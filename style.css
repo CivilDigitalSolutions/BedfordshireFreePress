@@ -473,58 +473,6 @@ main { padding: 0 0 3rem; }
 .italic { font-style: italic; }
 
 /* ===================================================================
-   ADVERTISING SLOTS (Google AdSense-ready)
-   Styled placeholders until a real AdSense unit is pasted in.
+   ADSENSE (Auto Ads) — Google injects <ins class="adsbygoogle"> units
    =================================================================== */
-.ad-zone { width: 100%; }
-.ad-slot {
-  margin: 2rem auto;
-  text-align: center;
-  background: var(--surface-alt);
-  border: 1px dashed var(--border-strong);
-  border-radius: var(--radius-sm);
-  overflow: hidden;
-}
-.ad-slot__label {
-  display: block;
-  font-family: var(--font-sans);
-  font-size: 0.58rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--ink-light);
-  padding: 0.4rem 0 0.15rem;
-}
-.ad-slot__placeholder {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--ink-light);
-  font-size: 0.78rem;
-  font-family: var(--font-sans);
-  background: repeating-linear-gradient(45deg,#EFEAE0,#EFEAE0 10px,#F6F2EA 10px,#F6F2EA 20px);
-}
 .adsbygoogle { display: block; }
-
-/* Leaderboard — 728×90 */
-.ad-slot--leaderboard { max-width: 760px; }
-.ad-slot--leaderboard .ad-slot__placeholder { width: 100%; max-width: 728px; height: 90px; }
-
-/* In-article — 336×280 */
-.ad-slot--inarticle { max-width: 360px; }
-.ad-slot--inarticle .ad-slot__placeholder { width: 100%; max-width: 336px; height: 280px; }
-
-/* Sidebar MPU — 300×250 */
-.ad-slot--mpu { max-width: 300px; margin: 0 auto 1.75rem; }
-.ad-slot--mpu .ad-slot__placeholder { width: 100%; max-width: 300px; height: 250px; }
-
-@media (max-width: 768px) {
-  .ad-slot--leaderboard .ad-slot__placeholder { height: 100px; max-width: 320px; }
-}
-
-/* ── LEFT SKYSCRAPER AD RAIL (≥1500px only) ─────── */
-.ad-rail { position: absolute; top: 220px; width: 160px; z-index: 1; display: none; }
-.ad-rail--left { left: calc((100% - var(--maxw)) / 2 - 176px); }
-.ad-rail .ad-slot { margin: 0; }
-.ad-rail .ad-slot__placeholder { width: 160px; height: 600px; }
-@media (min-width: 1500px) { .ad-rail { display: block; } }

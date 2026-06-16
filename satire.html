@@ -37,29 +37,10 @@
 </head>
 <body>
 
-  <!-- ===== AD RAIL: Left Skyscraper (160×600) — desktop ≥1500px only =====
-       ACTIVATE ADSENSE: replace ca-pub / data-ad-slot, uncomment the <ins>
-       block, then delete the .ad-slot__placeholder div.
-  <ins class="adsbygoogle"
-       style="display:block;width:160px;height:600px"
-       data-ad-client="ca-pub-5319059698255764"
-       data-ad-slot="0000000000"
-       data-ad-format="vertical"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  -->
-  <aside class="ad-rail ad-rail--left" aria-label="Advertisement" role="complementary">
-    <div class="ad-slot ad-slot--sky">
-      <span class="ad-slot__label">Advertisement</span>
-      <div class="ad-slot__placeholder">Skyscraper &middot; 160 × 600</div>
-    </div>
-  </aside>
-  <!-- ===== END AD RAIL ===== -->
-
-
   <header class="site-header" role="banner">
     <div class="container">
       <div class="header-top">
-        <a href="index.html" class="site-logo" aria-label="The Bedfordshire Free Press — Home">
+        <a href="/" class="site-logo" aria-label="The Bedfordshire Free Press — Home">
           <span class="site-logo__name">The Bedfordshire <span>Free Press</span></span>
           <span class="site-logo__tagline">Serving Bedfordshire since 2024 &mdash; News &bull; Satire &bull; Comedy</span>
         </a>
@@ -72,7 +53,7 @@
     <nav class="site-nav" aria-label="Main navigation">
       <div class="container">
         <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="news.html">Recent News</a></li>
           <li><a href="satire.html" data-cat="satire" class="active">Satire</a></li>
           <li><a href="comedy.html" data-cat="comedy">Comedy Sketches</a></li>
@@ -81,26 +62,6 @@
       </div>
     </nav>
   </header>
-
-  <div class="ad-zone"><div class="container">
-      <!-- ===== AD SLOT: Leaderboard (728 × 90) =====
-           ACTIVATE ADSENSE: replace ca-pub / data-ad-slot below, uncomment the
-           <ins> block, then delete the .ad-slot__placeholder div.
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-5319059698255764"
-           data-ad-slot="0000000000"
-           data-ad-format="horizontal"
-           data-full-width-responsive="true"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      -->
-      <div class="ad-slot ad-slot--leaderboard" role="complementary" aria-label="Advertisement">
-        <span class="ad-slot__label">Advertisement</span>
-        <div class="ad-slot__placeholder">Leaderboard &middot; 728 × 90</div>
-      </div>
-      <!-- ===== END AD SLOT: Leaderboard ===== -->
-  </div></div>
-
 
   <div class="page-hero" style="border-left: 6px solid var(--accent-satire);">
     <div class="container">
@@ -136,27 +97,44 @@
         </div>
       </article>
 
-      <div class="ad-zone">
-      <!-- ===== AD SLOT: In-article (336 × 280) =====
-           ACTIVATE ADSENSE: replace ca-pub / data-ad-slot below, uncomment the
-           <ins> block, then delete the .ad-slot__placeholder div.
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-5319059698255764"
-           data-ad-slot="0000000000"
-           data-ad-format="rectangle"
-           data-full-width-responsive="true"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      -->
-      <div class="ad-slot ad-slot--inarticle" role="complementary" aria-label="Advertisement">
-        <span class="ad-slot__label">Advertisement</span>
-        <div class="ad-slot__placeholder">In-article &middot; 336 × 280</div>
-      </div>
-      <!-- ===== END AD SLOT: In-article ===== -->
-      </div>
-
       <!-- SATIRE GRID -->
       <div class="grid-3">
+
+            <article class="card">
+              <div class="card__img">
+                <img src="images/satire-local-plan-parking.jpg" alt="Illustrative image: a large empty car park" onerror="this.parentElement.innerHTML='<div class=\'card__img--placeholder\'>🅿️</div>'" />
+              </div>
+              <div class="card__body">
+                <div class="card__meta"><span class="badge badge--satire">Satire</span><span class="card__date">14 June 2026</span></div>
+                <h3 class="card__headline"><a href="satire-local-plan-residents-want-parking.html">Central Bedfordshire Asks Residents to Shape the Next 24 Years; Residents Ask for More Parking</a></h3>
+                <p class="card__excerpt">The Local Plan 2050 consultation invited nuanced strategic thinking. The responses were mainly about car parks, a second Aldi, and a junction near Ampthill that "council knows about."</p>
+                <a class="card__read-more" href="satire-local-plan-residents-want-parking.html">Read more &rarr;</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__img">
+                <img src="images/satire-dunstable-closure.jpg" alt="Illustrative image: a shop with a closure notice in the window" onerror="this.parentElement.innerHTML='<div class=\'card__img--placeholder\'>🏪</div>'" />
+              </div>
+              <div class="card__body">
+                <div class="card__meta"><span class="badge badge--satire">Satire</span><span class="card__date">14 June 2026</span></div>
+                <h3 class="card__headline"><a href="satire-dunstable-shop-closure-planning-permission.html">Dunstable Shop Given Three-Month Closure Order; Planning Permission for Closure Expected in Six to Eight Months</a></h3>
+                <p class="card__excerpt">A court has ordered a Dunstable shop to close. Legal experts say the closure itself may require retrospective planning permission, provided there are no neighbouring objections about the font on the notice.</p>
+                <a class="card__read-more" href="satire-dunstable-shop-closure-planning-permission.html">Read more &rarr;</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__img">
+                <img src="images/satire-treadmill.jpg" alt="Illustrative image: a gym treadmill with an out-of-order sign" onerror="this.parentElement.innerHTML='<div class=\'card__img--placeholder\'>🏋️</div>'" />
+              </div>
+              <div class="card__body">
+                <div class="card__meta"><span class="badge badge--satire">Satire</span><span class="card__date">14 June 2026</span></div>
+                <h3 class="card__headline"><a href="satire-leighton-leisure-centre-gym-treadmill.html">Area&rsquo;s New 150-Station Gym Immediately Reduces to 149 Stations as One Treadmill Is &lsquo;Awaiting a Part&rsquo;</a></h3>
+                <p class="card__excerpt">A &pound;33.9m leisure centre. Eight-lane pool. Olympic opening. 150-station gym. One laminated A4 sign reading &ldquo;Out of Order.&rdquo; Tradition, upheld.</p>
+                <a class="card__read-more" href="satire-leighton-leisure-centre-gym-treadmill.html">Read more &rarr;</a>
+              </div>
+            </article>
 
             <article class="card">
               <div class="card__img">
@@ -308,31 +286,16 @@
           </div>
           <div class="card__body">
             <div class="card__meta"><span class="badge badge--satire">Satire</span><span class="card__date">6 June 2025</span></div>
-            <h3 class="card__headline"><a href="satire-resilience-strategy-poster.html">Council Announces £200k "Resilience Strategy" Consisting Entirely of a Spreadsheet and a Motivational Poster</a></h3>
-            <p class="card__excerpt">The poster, which reads "Challenges are just opportunities in high-vis jackets," has been placed in the civic centre foyer and will remain there until at least 2027, subject to planning approval.</p>
-            <span class="card__read-more">Read more &rarr;</span>
-          </div>
-        </article>
+                <h3 class="card__headline"><a href="satire-resilience-strategy-poster.html">Council Announces &pound;200k &ldquo;Resilience Strategy&rdquo; (Spreadsheet + Poster)</a></h3>
+                <p class="card__excerpt">Bedford Borough Council has committed &pound;200,000 to a new Resilience Strategy, the deliverables of which are a spreadsheet and a laminated poster for the foyer.</p>
+                <span class="card__read-more">Read more &rarr;</span>
+              </div>
+            </article>
 
-        <article class="card">
-          <div class="card__img">
-            <img src="images/satire-dunstable-tesco-express-hearing.jpg" alt="Illustration of a town hall meeting" onerror="this.parentElement.innerHTML='<div class=\'card__img--placeholder\'>🗳️</div>'" />
-          </div>
-          <div class="card__body">
-            <div class="card__meta"><span class="badge badge--satire">Satire</span><span class="card__date">5 June 2025</span></div>
-            <h3 class="card__headline"><a href="satire-dunstable-tesco-express-hearing.html">Dunstable Resident Attends 14th Consecutive "Final" Public Hearing on Proposed Tesco Express</a></h3>
-            <p class="card__excerpt">Margaret, 68, has now spent more cumulative hours in Dunstable Civic Hall than most elected members. "I've started bringing a packed lunch," she told us. "And a camping chair."</p>
-            <span class="card__read-more">Read more &rarr;</span>
-          </div>
-        </article>
-
-
-      </div>
+      </div><!-- end .grid-3 -->
 
     </div>
   </main>
-
-  </div></div>
 
   <footer class="site-footer" role="contentinfo">
     <div class="container">

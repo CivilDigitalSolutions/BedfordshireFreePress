@@ -15,29 +15,10 @@
 </head>
 <body>
 
-  <!-- ===== AD RAIL: Left Skyscraper (160×600) — desktop ≥1500px only =====
-       ACTIVATE ADSENSE: replace ca-pub / data-ad-slot, uncomment the <ins>
-       block, then delete the .ad-slot__placeholder div.
-  <ins class="adsbygoogle"
-       style="display:block;width:160px;height:600px"
-       data-ad-client="ca-pub-5319059698255764"
-       data-ad-slot="0000000000"
-       data-ad-format="vertical"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  -->
-  <aside class="ad-rail ad-rail--left" aria-label="Advertisement" role="complementary">
-    <div class="ad-slot ad-slot--sky">
-      <span class="ad-slot__label">Advertisement</span>
-      <div class="ad-slot__placeholder">Skyscraper &middot; 160 × 600</div>
-    </div>
-  </aside>
-  <!-- ===== END AD RAIL ===== -->
-
-
   <header class="site-header" role="banner">
     <div class="container">
       <div class="header-top">
-        <a href="index.html" class="site-logo" aria-label="The Bedfordshire Free Press — Home">
+        <a href="/" class="site-logo" aria-label="The Bedfordshire Free Press — Home">
           <span class="site-logo__name">The Bedfordshire <span>Free Press</span></span>
           <span class="site-logo__tagline">Serving Bedfordshire since 2024 &mdash; News &bull; Satire &bull; Comedy</span>
         </a>
@@ -50,7 +31,7 @@
     <nav class="site-nav" aria-label="Main navigation">
       <div class="container">
         <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="news.html" class="active">Recent News</a></li>
           <li><a href="satire.html" data-cat="satire">Satire</a></li>
           <li><a href="comedy.html" data-cat="comedy">Comedy Sketches</a></li>
@@ -59,26 +40,6 @@
       </div>
     </nav>
   </header>
-
-  <div class="ad-zone"><div class="container">
-      <!-- ===== AD SLOT: Leaderboard (728 × 90) =====
-           ACTIVATE ADSENSE: replace ca-pub / data-ad-slot below, uncomment the
-           <ins> block, then delete the .ad-slot__placeholder div.
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-5319059698255764"
-           data-ad-slot="0000000000"
-           data-ad-format="horizontal"
-           data-full-width-responsive="true"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      -->
-      <div class="ad-slot ad-slot--leaderboard" role="complementary" aria-label="Advertisement">
-        <span class="ad-slot__label">Advertisement</span>
-        <div class="ad-slot__placeholder">Leaderboard &middot; 728 × 90</div>
-      </div>
-      <!-- ===== END AD SLOT: Leaderboard ===== -->
-  </div></div>
-
 
   <div class="page-hero">
     <div class="container">
@@ -109,27 +70,44 @@
             </div>
           </article>
 
-      <div class="ad-zone">
-      <!-- ===== AD SLOT: In-article (336 × 280) =====
-           ACTIVATE ADSENSE: replace ca-pub / data-ad-slot below, uncomment the
-           <ins> block, then delete the .ad-slot__placeholder div.
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-5319059698255764"
-           data-ad-slot="0000000000"
-           data-ad-format="rectangle"
-           data-full-width-responsive="true"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      -->
-      <div class="ad-slot ad-slot--inarticle" role="complementary" aria-label="Advertisement">
-        <span class="ad-slot__label">Advertisement</span>
-        <div class="ad-slot__placeholder">In-article &middot; 336 × 280</div>
-      </div>
-      <!-- ===== END AD SLOT: In-article ===== -->
-      </div>
-
           <!-- NEWS GRID -->
           <div class="grid-3">
+
+            <article class="card">
+              <div class="card__img">
+                <img src="images/article-leighton-leisure.jpg" alt="Illustrative image: a modern leisure centre with swimming pool" onerror="this.parentElement.innerHTML='<div class=\'card__img--placeholder\'>🏊</div>'" />
+              </div>
+              <div class="card__body">
+                <div class="card__meta"><span class="badge badge--news">Community</span><span class="card__date">14 June 2026</span></div>
+                <h3 class="card__headline"><a href="article-leighton-leisure-community-centre-opening.html">Leighton Buzzard&rsquo;s New &pound;33.9m Leisure Centre to Open 27 June With Olympic and Paralympic Stars</a></h3>
+                <p class="card__excerpt">The brand-new Leighton Leisure and Community Centre opens 27 June 2026 with a free Family Fun Day featuring Colin Jackson CBE and Maisie Summers-Newton MBE.</p>
+                <a class="card__read-more" href="article-leighton-leisure-community-centre-opening.html">Read more &rarr;</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__img">
+                <img src="images/article-local-plan-2050-cbc.jpg" alt="Illustrative image: a map of Central Bedfordshire" onerror="this.parentElement.innerHTML='<div class=\'card__img--placeholder\'>🗺️</div>'" />
+              </div>
+              <div class="card__body">
+                <div class="card__meta"><span class="badge badge--news">Planning</span><span class="card__date">14 June 2026</span></div>
+                <h3 class="card__headline"><a href="article-central-bedfordshire-local-plan-2050-consultation.html">Residents Shape Bedfordshire&rsquo;s Future as Local Plan 2050 Scoping Consultation Closes</a></h3>
+                <p class="card__excerpt">Central Bedfordshire&rsquo;s Local Plan 2050 scoping consultation has closed after inviting residents to share their views on housing, transport, environment and climate change through to 2050.</p>
+                <a class="card__read-more" href="article-central-bedfordshire-local-plan-2050-consultation.html">Read more &rarr;</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__img">
+                <img src="images/article-dunstable-tobacco.jpg" alt="Illustrative image: a closed shop front" onerror="this.parentElement.innerHTML='<div class=\'card__img--placeholder\'>🚭</div>'" />
+              </div>
+              <div class="card__body">
+                <div class="card__meta"><span class="badge badge--news">Public Safety</span><span class="card__date">14 June 2026</span></div>
+                <h3 class="card__headline"><a href="article-dunstable-shop-illegal-tobacco-closure.html">Dunstable Shop Shut Down After Repeated Illegal Tobacco and Vape Sales</a></h3>
+                <p class="card__excerpt">A three-month closure order has been granted by Luton Magistrates&rsquo; Court against a High Street South retailer following a Central Bedfordshire Trading Standards investigation triggered by resident complaints.</p>
+                <a class="card__read-more" href="article-dunstable-shop-illegal-tobacco-closure.html">Read more &rarr;</a>
+              </div>
+            </article>
 
             <article class="card">
               <div class="card__img">
@@ -352,24 +330,6 @@
 
         <!-- SIDEBAR -->
         <aside aria-label="Sidebar">
-          <div class="sidebar-widget" style="padding:0;border:none;background:none;">
-      <!-- ===== AD SLOT: Sidebar (300 × 250) =====
-           ACTIVATE ADSENSE: replace ca-pub / data-ad-slot below, uncomment the
-           <ins> block, then delete the .ad-slot__placeholder div.
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-5319059698255764"
-           data-ad-slot="0000000000"
-           data-ad-format="rectangle"
-           data-full-width-responsive="true"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      -->
-      <div class="ad-slot ad-slot--mpu" role="complementary" aria-label="Advertisement">
-        <span class="ad-slot__label">Advertisement</span>
-        <div class="ad-slot__placeholder">Sidebar &middot; 300 × 250</div>
-      </div>
-      <!-- ===== END AD SLOT: Sidebar ===== -->
-          </div>
 
           <div class="sidebar-widget">
             <h3>Also in the news</h3>
@@ -383,33 +343,14 @@
             </div>
             <div class="sidebar-story">
               <div class="sidebar-story__img"><img src="images/news-s3.jpg" alt="" onerror="this.style.background='#e2e2ef'" /></div>
-              <a class="sidebar-story__headline" href="article.html">New cycle route linking Bedford to Milton Keynes approved</a>
+              <a class="sidebar-story__headline" href="article.html">Biggleswade library to host new digital skills sessions</a>
             </div>
-            <div class="sidebar-story">
-              <div class="sidebar-story__img"><img src="images/news-s4.jpg" alt="" onerror="this.style.background='#e2e2ef'" /></div>
-              <a class="sidebar-story__headline" href="article.html">GCSE results: Bedfordshire schools above national average for third year</a>
-            </div>
-          </div>
-
-          <div class="sidebar-widget">
-            <h3>Categories</h3>
-            <ul style="list-style:none;font-size:0.85rem;">
-              <li style="padding:0.4rem 0;border-bottom:1px solid var(--border);"><a href="news.html">All News</a></li>
-              <li style="padding:0.4rem 0;border-bottom:1px solid var(--border);"><a href="news.html">Transport</a></li>
-              <li style="padding:0.4rem 0;border-bottom:1px solid var(--border);"><a href="news.html">Health</a></li>
-              <li style="padding:0.4rem 0;border-bottom:1px solid var(--border);"><a href="news.html">Education</a></li>
-              <li style="padding:0.4rem 0;border-bottom:1px solid var(--border);"><a href="news.html">Community</a></li>
-              <li style="padding:0.4rem 0;border-bottom:1px solid var(--border);"><a href="news.html">Heritage</a></li>
-              <li style="padding:0.4rem 0;"><a href="news.html">Environment</a></li>
-            </ul>
-          </div>
+          </div><!-- end sidebar-widget -->
         </aside>
-      </div>
 
+      </div><!-- end .article-layout -->
     </div>
   </main>
-
-  </div></div>
 
   <footer class="site-footer" role="contentinfo">
     <div class="container">
